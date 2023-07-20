@@ -1,0 +1,35 @@
+body {
+    -webkit-text-size-adjust: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    -webkit-tap-highlight-color: transparent;
+
+    &::before,
+    &::after {
+        box-sizing: border-box;
+
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+a {
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+button {
+    font-family: $font-family-default;
+
+    cursor: pointer;
+}
